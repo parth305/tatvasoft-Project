@@ -1,0 +1,105 @@
+.container{
+    width: 1100px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.bag{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.cardbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card{
+    width: 585.2px;
+    height: 149.2px;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+    margin: 15px;
+}
+
+.image{
+    width: 150px;
+    height: 149.2px;
+    background-color: black;
+    /* display: inline-block; */
+}
+
+.prodcutdetail{
+    /* display: inline-block; */
+    margin-left: 15px;
+    width: 400px;
+}
+
+.one{
+    /* position: relative; */
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.two{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #f14d54;
+}
+
+.three{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.three a{
+    text-decoration: none;
+    color: red;
+}
+
+.items{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.three span{
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.off{
+    display: inline-block;
+}
+
+.black{
+    color: black;
+}
+
+.off span{
+    margin: 0px 5px;
+}
+
+.btn-6{
+    width: 20px;
+    height: 20px;
+}
+
+.red{
+    background-color: #f14d54;
+}

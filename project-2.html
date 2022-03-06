@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project-2.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="../html-2-DesignPages/html/images/favicon/apple-touch-icon.png" alt="">
+            <div id="logotext">
+                <span id="name">TatvaSoft</span>
+                <span id="sub">sculpting thoughts...</span>
+            </div>
+        </div>
+
+        <div class="leftside">
+
+            <div id="links">
+                <a href="#" id="log">Login</a>
+                <p>|</p><a id="reg" href="#">Register</a>
+            </div>
+            <div id="cart">
+                <img src="../html-2-DesignPages/html/images/cart.svg" alt="">
+                <span id="zero">0</span>
+                <span id="txt">Cart</span>
+            </div>
+        </div>
+    </nav>
+
+    <div id="st">
+        <div class="searchtab">
+            <input type="text" name="searchbar" id="searchbar" placeholder="What are you looking for" list="productlist">
+            <datalist id="productlist">
+                <option value="No product found">
+                <option value="loading.....">
+                <option value="Title1">
+                <option value="Title2">
+                <option value="Title3">
+              </datalist>
+            <button id="searchbtn" class="btn"><img src="../html-2-DesignPages/html/images/search.svg" alt="">
+                Search</button>
+            <button id="cancelbtn" class="btn">Cancel</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="top">
+            <span class="home">Home</span>
+            <span class="arrow">></span>
+            <span class="toplogin">Login</span>
+        </div>
+
+        <div class="heading">
+            <h1>Login to create account</h1>
+        </div>
+        <div class="box">
+
+            <div class="personalinfo">
+
+                <h2>Personal information</h2>
+                <hr>
+                <p>Pelase enter the following information to careate yor account</p>
+
+                <div class="firstname">
+                    <label for="firstname" class="lbl">First Name*</label>
+                    <input type="text" name="firstname" id="firstname">
+                </div>
+
+                <div class="lastname">
+                    <label for="lastname" class="lbl">Last Name*</label>
+                    <input type="text" name="lastname" id="lastname">
+                </div>
+
+                <div class="email">
+                    <label for="email" class="lbl">Email Address*</label>
+                    <input type="text" name="email" id="email">
+
+                </div>
+            </div>
+
+            <div class="logininfo">
+                <h2>Login information</h2>
+                <hr>
+    
+                <div class="pass">
+                    <div class="password">
+                        <label for="password" class="lbl">Password*</label>
+                        <input type="text" name="password" id="password">
+                    </div>
+                    <div class="confirmpassword">
+                        <label for="confirmpassword" class="lbl">Confirm Password*</label>
+                        <input type="text" name="confirmpassword" id="confirmpassword">
+                    </div>
+                </div>
+            </div>
+            <button class="btn-project2">Register</button>
+        </div>
+
+
+    </div>
+    <footer>
+        <div class="can">
+
+            <div id="footerlogo">
+                <img src="../html-2-DesignPages/html/images/favicon/apple-touch-icon.png" alt="">
+                <div id="footerlogotext">
+                    <span id="footername">TatvaSoft</span>
+                    <span id="footersub">sculpting thoughts...</span>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; Tatvasoft.com All rights reserved</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

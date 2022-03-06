@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project-1.css">
+    <title>Project-1</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="../html-2-DesignPages/html/images/favicon/apple-touch-icon.png" alt="">
+            <div id="logotext">
+                <span id="name">TatvaSoft</span>
+                <span id="sub">sculpting thoughts...</span>
+            </div>
+        </div>
+
+        <div class="leftside">
+
+            <div id="links">
+                <a href="#" id="log">Login</a>
+                <p>|</p><a id="reg" href="#">Register</a>
+            </div>
+            <div id="cart">
+                <img src="../html-2-DesignPages/html/images/cart.svg" alt="">
+                <span id="zero">0</span>
+                <span id="txt">Cart</span>
+            </div>
+        </div>
+    </nav>
+
+    <div id="st">
+        <div class="searchtab">
+            <input type="text" name="searchbar" id="searchbar" placeholder="What are you looking for" list="productlist">
+            <datalist id="productlist">
+                <option value="No product found">
+                <option value="loading.....">
+                <option value="Title1">
+                <option value="Title2">
+                <option value="Title3">
+              </datalist>
+            <button id="searchbtn" class="btn"><img src="../html-2-DesignPages/html/images/search.svg" alt="">
+                Search</button>
+            <button id="cancelbtn" class="btn">Cancel</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="top">
+            <span class="home">Home</span>
+            <span class="arrow">></span>
+            <span class="toplogin">Login</span>
+        </div>
+
+        <div class="heading">
+            <h1>Login to create account</h1>
+        </div>
+
+        <div class="box">
+            <div class="new">
+                <h2>New customer</h2>
+                <hr>
+                <p>Registration is free and easy</p>
+                <ul>
+                    <li>faster Checkout</li>
+                    <li>Save multiple shipping address</li>
+                    <li>View and track orders and more</li>
+                </ul>
+                <button class="btn" id="newbtn">Create an account</button>
+            </div>
+
+            <div class="old">
+                <h2>Registered customer</h2>
+                <hr>
+                <p>if yo have account wiht us, please log in</p>
+                <div class="emailbox">
+                    <label for="email">Email Address*</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="passwordbox">
+                    <label for="password">Password*</label>
+                    <input type="text" name="password">
+                </div>
+                <button class="btn" id="Loginbtn">Login</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="can">
+
+            <div id="footerlogo">
+                <img src="../html-2-DesignPages/html/images/favicon/apple-touch-icon.png" alt="">
+                <div id="footerlogotext">
+                    <span id="footername">TatvaSoft</span>
+                    <span id="footersub">sculpting thoughts...</span>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; Tatvasoft.com All rights reserved</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

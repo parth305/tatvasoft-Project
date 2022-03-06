@@ -1,0 +1,80 @@
+.container{
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.productname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    /* margin-bottom: 45px; */
+}
+
+.name{
+    width:200px;
+    display: inline-block;
+}
+
+#select{
+    width: 100px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 227.67px;
+    border: 1px solid black;
+    margin: 15px;
+    border-radius: 2px;
+}
+
+.cardtop{
+    position: relative;
+    height: 188.5px;
+    background-color: black;
+}
+
+.cardbottom{
+    height: 305.67px;
+    padding: 13px;
+}
+
+.cardbottom p{
+    margin: 9px 0px;
+}
+
+#disccount{
+    color: rgb(19, 233, 19);
+}
+
+.price{
+    width: 170px;
+}
+
+#lessprice{
+    margin-left: 10px;
+}
+
+#purchase{
+    width: 180.67px;
+    height: 40px;
+    margin: 10px;
+    background-color: #f14d54;
+    /* margin-bottom: 10px; */
+}
+
+
+
+
+

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Yeon+Sung&display=swap');
+
+.new{
+    display: inline-block;
+    width: 500px;
+    /* border: 2px solid black; */
+    margin: 2px;
+    margin-right: 6px;
+
+}
+.new h2{
+    margin-bottom: 20px;
+}
+
+.new p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.new li{
+    margin-bottom: 15px;
+}
+
+.old{
+    width: 500px;
+    display: inline-block;
+    /* border: 2px solid black; */
+    margin: 2px;
+}
+.new ul{
+    margin-bottom: 149px;
+}
+.emailbox input{
+    height: 30px;
+    width: 300px;
+    margin-top: 15px;
+    display: block;
+}
+
+.passwordbox input{
+    height: 30px;
+    width: 300px;
+    margin-top: 15px;
+    display: block;
+}
+
+.old h2{
+    margin-bottom: 20px;
+}
+
+.old p{
+    margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.old input[type="email"]{
+    margin-bottom: 40px;
+}
+
+.old input[type="text"]{
+    margin-bottom: 60px;
+}
+
+
+#newbtn{
+    width: 220px;
+    height: 45px;
+    background-color: #f14d54;
+}
+
+#Loginbtn{
+    width: 100px;
+    height: 45px;
+    background-color: #f14d54;
+}
+
+

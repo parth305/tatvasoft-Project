@@ -1,0 +1,94 @@
+
+.firstname{
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.lastname{
+    display: inline-block;
+}
+
+#firstname{
+    display: block;
+    width: 510px;
+
+    outline: none;
+}
+
+#lastname{
+    width: 510px;
+    display: block;
+    outline: none;
+}
+
+.personalinfo input{
+    margin-top: 15px;
+    border-radius: 3px;
+    height: 40px;
+}
+#email{
+    display: block;
+    width: 1090px;
+}
+.email{
+    margin-top: 40px;
+}
+
+.personalinfo h2{
+    margin-bottom: 20px;
+}
+
+.personalinfo p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.logininfo{
+    margin-top: 70px;
+}
+
+.logininfo h2{
+    margin-bottom: 20px;
+}
+
+.pass{
+    margin-top: 20px;
+}
+
+.pass input{
+    height: 40px;
+    border-radius: 3px;
+}
+
+#password{
+    display: block;
+    margin-top: 15px;
+    width: 510px;
+    /* margin-right: 10px; */
+}
+
+
+#confirmpassword{
+    width: 510px;
+    margin-top: 15px;
+    display: block;
+}
+
+.password{
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.confirmpassword{
+     display: inline-block;
+}
+
+.btn-project2{
+    color: white;
+    margin-top: 60px;
+    /* margin-bottom: 80px; */
+    width: 136px;
+    height: 45px;
+    background-color: #f14d54;
+}

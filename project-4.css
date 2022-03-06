@@ -1,0 +1,107 @@
+.container{
+    width: 1100px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* this is for name div */
+.first{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.first input{
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 457px;
+}
+
+.fname{
+    width: 500px;
+    margin-right:15px ;
+}
+
+.lname{
+    width: 500px;
+}
+
+#firstname{
+    display: block;
+    
+    height: 40px;
+}
+#lastname{
+    display: block;
+    height: 40px;
+}
+
+/* this is for categories div */
+.second{
+    display: flex;
+    margin-top: 35px;
+}
+.second input{
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 40px;
+    width: 457px;
+}
+.categories{
+    width: 500px;
+    margin-right: 15px;
+}
+
+.description{
+    width: 500px;
+}
+#categories{
+    display: block;
+}
+
+#description{
+    display: block;
+}
+
+.third{
+    margin-top: 60px;
+}
+
+#upload{
+    width: 120px;
+    height: 40px;
+    background-color: #f14d54;
+    margin-right: 0px;
+}
+
+#uploadinput{
+    display: inline;
+    margin-left: 0px;
+    width: 337px;
+    height: 36px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.fourth{
+    margin-top: 35px;
+}
+.btn-4{
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    color: white;
+}
+
+#save{
+    background-color: #80BF32;
+}
+
+#cancel{
+    background-color: #f14d54;
+}
